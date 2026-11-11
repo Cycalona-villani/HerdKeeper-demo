@@ -1,0 +1,45 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="220"
+  height="220"
+  viewBox="0 0 220 220"
+  fill="none"
+>
+  <!--
+    R.H. Cattle livestock brand
+    Reversed R connected to H
+    Both letters have equal height
+    Transparent background
+  -->
+
+  <g
+    stroke="#111111"
+    stroke-width="12"
+    stroke-linecap="square"
+    stroke-linejoin="round"
+  >
+    <!-- Shared vertical post: R and H -->
+    <path d="M105 30 V190" />
+
+    <!-- Right vertical post of H -->
+    <path d="M185 30 V190" />
+
+    <!-- H horizontal crossbar -->
+    <path d="M105 110 H185" />
+
+    <!-- Backward-facing R upper loop -->
+    <path
+      d="
+        M105 30
+        H69
+        C44 30 32 46 32 70
+        C32 94 44 110 69 110
+        H105
+      "
+    />
+
+    <!-- Backward R diagonal leg reaches H bottom -->
+    <path d="M105 110 L32 190" />
+  </g>
+</svg>
