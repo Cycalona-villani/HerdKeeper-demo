@@ -1,0 +1,54 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="560"
+     height="200"
+     viewBox="0 0 560 200"
+     fill="none">
+
+  <!-- Connected Reverse-R and H Cattle Brand -->
+  <g stroke="#111111"
+     stroke-width="12"
+     stroke-linecap="square"
+     stroke-linejoin="round">
+
+    <!-- Shared vertical post -->
+    <path d="M105 25 V165" />
+
+    <!-- Right post of H -->
+    <path d="M185 25 V165" />
+
+    <!-- H crossbar -->
+    <path d="M105 95 H185" />
+
+    <!-- Reversed R upper loop -->
+    <path d="
+      M105 25
+      H69
+      C44 25 32 39 32 60
+      C32 81 44 95 69 95
+      H105
+    " />
+
+    <!-- Reversed R diagonal leg -->
+    <path d="M105 95 L32 165" />
+
+  </g>
+
+  <!-- Farm name -->
+  <text x="225"
+        y="92"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="43"
+        font-weight="700"
+        fill="#111111">
+    R.H. Cattle
+  </text>
+
+  <text x="227"
+        y="123"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="17"
+        fill="#555555">
+    Founding Farm Demo
+  </text>
+</svg>
